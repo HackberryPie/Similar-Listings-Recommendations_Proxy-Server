@@ -25,7 +25,7 @@ app.use(
 );
 app.use(
   "/api/similarlistings",
-  proxy({ target: "http://ec2-18-206-61-102.compute-1.amazonaws.com/" })
+  proxy({ target: "http://ec2-3-86-84-148.compute-1.amazonaws.com/" })
 );
 
 app.listen(3000, () => console.log("Proxy Server Working!!!"));
